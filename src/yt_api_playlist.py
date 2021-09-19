@@ -12,7 +12,9 @@ def main():
     # panda playlist from corey
     # pl_id = "PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS"
     # python playlist from corey
-    pl_id = "PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU"
+    # pl_id = "PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU"
+    # other playlist
+    pl_id = "PLHiZ4m8vCp9MJDxMOzhYVuTrO1b5n-Tq_"
     yt = build(api_service_name, api_version, developerKey=api_key)
 
     hours_pattern = re.compile(r'(\d+)H')
